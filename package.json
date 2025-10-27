@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ranjandaswani.github.io/form-to-pdf",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

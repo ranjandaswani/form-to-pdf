@@ -1,18 +1,29 @@
-# React + Vite
+🧾 React Form to PDF (Landscape with Bootstrap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful React application that allows users to fill a responsive form and generate a landscape PDF using jsPDF and jspdf-autotable.
+The app supports dynamic field rendering, formatted date, and automatically includes a static timestamp above the generated PDF table.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📅 Custom date formatting — displays date as dd Month yyyy
 
-## React Compiler
+🧩 Dynamic form fields — show/hide extra input when “Other” is selected
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+📄 Generate PDF with table layout using jsPDF
+and jspdf-autotable
 
-Note: This will impact Vite dev & build performances.
+📐 Landscape PDF layout with static time above the table
 
-## Expanding the ESLint configuration
+💎 Fully responsive form using Bootstrap 5
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Instant PDF download — no backend required
+
+🧰 Tech Stack
+
+React 18+
+
+Bootstrap 5
+
+jsPDF
+
+jspdf-autotable
